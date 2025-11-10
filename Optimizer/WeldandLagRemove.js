@@ -1,7 +1,7 @@
 import express from "express";
 const app = express();
 
-app.get("/WeldandLagRemove", (req, res) => {
+app.get("/id", (req, res) => {
   res.json({ id: 2342323234 });
 });
 
